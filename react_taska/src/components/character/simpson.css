@@ -1,0 +1,12 @@
+.character{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 5vh;
+    width: 40vh;
+}
+/* .description{
+    background-color: white;
+    position: absolute;
+    margin-top: -10vh;
+    border-radius: 10px;
+} */
