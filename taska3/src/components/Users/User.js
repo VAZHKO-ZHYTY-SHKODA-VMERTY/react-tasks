@@ -8,8 +8,8 @@ const User=({user})=>{
     return(
         <div>
             <UserDetails inf={{id,name,username,email,phone,website}}/>
-            <UserAddress inf={{address}}/>
-            <Company inf={{company}}/>
+            {/* <UserAddress inf={{address}}/> */}
+            {/* <Company inf={{company}}/> */}
         </div>
     )
 }

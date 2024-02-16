@@ -1,6 +1,6 @@
 import React from 'react'
 import {useState, useEffect} from 'react'
-import Users from './components/Users'
+import Users from './components/Users/Users'
 
 function App() {
   const [users,setUsers]=useState([])
