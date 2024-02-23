@@ -7,7 +7,7 @@ const Car=({car, setNewCar})=>{
         e.preventDefault()
         fetch(`http://owu.linkpc.net/carsAPI/v1/cars/${id}`, {method:'DELETE'})
         .then(()=>{
-            setNewCar(prev=!prev)
+            setNewCar(prev=>!prev)
         })
     }
 
